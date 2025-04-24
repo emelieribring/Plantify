@@ -1,39 +1,50 @@
-# Plantify
+# 🪴 Plantify
 
-This template should help get you started developing with Vue 3 in Vite.
+**Plantify** är en stilren e-handelsplattform för växtälskare – byggd med Vue 3, Tailwind CSS och en touch av magi ✨  
+Det är ett portfolio-projekt som visar upp ett helt flöde: från snygg produktvisning till riktig (test)betalning via Stripe.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🌿 Funktioner
 
-## Type Support for `.vue` Imports in TS
+- 💚 Modern design med Tailwind CSS
+- 🛒 Varukorg med Pinia (Vue store)
+- 💳 Fullt checkout-flöde med Stripe API (testläge)
+- 📱 Mobilvänlig layout + hamburger-meny
+- 🌱 Responsiv produktvy med kolumner
+- 🔍 Filtrering via kategorier
+- 💌 Kontakt- & tacksida
+- 🧑‍💻 Snygg kodstruktur & komponentuppdelning
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 🔧 Tekniker
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Stripe](https://stripe.com/)
+- [Node.js + Express](https://expressjs.com/) (för backend checkout-session)
+- TypeScript 💙
 
-## Project Setup
+---
 
-```sh
+## 🚀 Kom igång lokalt
+
+```bash
+# 1. Klona projektet
+git clone https://github.com/emelieribring/Plantify.git
+cd Plantify
+
+# 2. Installera dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 3. Starta frontend
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+# 4. Gå till server/ och kör backend
+cd server
+npm install
+node server.js
 ```
