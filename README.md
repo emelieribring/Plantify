@@ -61,11 +61,5 @@ Kortnummer: 4242 4242 4242 4242
 Datum: valfritt i framtiden
 CVC: valfritt
 
-<img :src="homepage" width="600" />
-
 ✨ Emelie Ribring
 Portfolio | LinkedIn | GitHub
-
-<script setup lang="ts">
-import homepage from '@/assets/images/homepage.png'
-</script>
