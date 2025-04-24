@@ -48,3 +48,24 @@ cd server
 npm install
 node server.js
 ```
+
+Lägg till en .env i server/ med din Stripe-nyckel:
+
+STRIPE_SECRET_KEY=sk_test_your_key_here
+
+👉 Eller använd .env.example som mall.
+
+Du kan betala med:
+
+Kortnummer: 4242 4242 4242 4242
+Datum: valfritt i framtiden
+CVC: valfritt
+
+<img :src="homepage" width="600" />
+
+✨ Emelie Ribring
+Portfolio | LinkedIn | GitHub
+
+<script setup lang="ts">
+import homepage from '@/assets/images/homepage.png'
+</script>
